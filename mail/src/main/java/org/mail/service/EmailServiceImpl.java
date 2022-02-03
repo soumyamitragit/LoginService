@@ -1,4 +1,4 @@
-package org.mail;
+package org.mail.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
@@ -11,7 +11,7 @@ public class EmailServiceImpl {
 	private JavaMailSender mailSender;
 	public void sendSimpleMessage(String to,String subject,String text) {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("soumyamitracode@gmail.com");
+		message.setFrom("soumya-mitra@hotmail.com");
 		message.setTo(to);
 		message.setSubject(subject);
 		message.setText(text);

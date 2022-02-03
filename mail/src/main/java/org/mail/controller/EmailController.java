@@ -1,5 +1,6 @@
-package org.mail;
+package org.mail.controller;
 
+import org.mail.service.EmailServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
